@@ -2,7 +2,7 @@
 A sample use of NGINX, load balancing between two flask servers.
 
 ## How to deploy
-The Nginx server is set up to load balance between two flask containers on a 172.20.0.0/24 subnet, fortunately i've built a really complex shell script that deploys this web titan onto your local computer! How I hear you yell in the streets? Well just run the below command in the root folder:
+The Nginx server is set up to load balance between two flask containers on a 172.20.0.0/24 subnet. Fortunately for you, I've built a really complex shell script that deploys this web titan onto your local computer! How I hear you yell in the streets? Well just run the below command in the root folder:
 
 ```
 sh script.sh
