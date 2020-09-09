@@ -9,11 +9,11 @@ sh script.sh
 ```
 
 ## FAQ
-Q: Why?
-A: I wanted to learn about NGINX to be honest.
+### Why?
+I wanted to learn about NGINX to be honest.
 
-Q: Will this shutdown all my containers locally?
-A: I'm glad you asked! Yes.
+### Will this shutdown all my containers locally?
+I'm glad you asked! Yes.
 
-Q: How do I run this on Windows?
-A: https://www.apple.com/uk/shop/buy-mac/macbook-pro/13-inch
+### How do I run this on Windows?
+https://www.apple.com/uk/shop/buy-mac/macbook-pro/13-inch
