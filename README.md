@@ -13,11 +13,11 @@ docker run --net appnet --ip 172.20.0.10 -it -d -p 8080:8080 lb
 
 Cool, we have a docker network setup! Now we better run both our condiment flask servers, let's go into mayonaise first and run the below command. (Mayonaise folder)
 ```
-docker run --net appnet --ip 172.20.0.100 -itd app
+docker run --net appnet --ip 172.20.0.100 -itd mayonaise
 ```
 Now mayonaise is running on .100 of our docker network, we can switch over to ketchup and get that up and running, see below for that command. (Ketchup folder)
 ```
-docker run --net appnet --ip 172.20.0.100 -itd app
+docker run --net appnet --ip 172.20.0.101 -itd ketchup
 ```
 ## Why?
 I wanted to learn NGINX to be honest. 
