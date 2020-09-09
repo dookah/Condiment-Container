@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import render_template
 import socket
 
 ip = socket.gethostbyname(socket.gethostname())
@@ -7,11 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    out = (
-        f'Welcome to mayonaise town.<br>'
-        f'IP address of the server is {ip}.<br><br>'
-    )
-    return out
+    return render_template("index.html")
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
