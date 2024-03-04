@@ -1,1 +1,2 @@
-Flask==1.1.1
+jinja2
+Flask
