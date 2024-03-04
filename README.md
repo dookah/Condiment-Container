@@ -10,13 +10,10 @@ sh script.sh
 
 ## FAQ
 ### Why?
-I wanted to learn about NGINX to be honest.
+I wanted to learn about NGINX.
 
 ### Will this shutdown all my containers locally?
-I'm glad you asked! Yes.
-
-### How do I run this on Windows?
-https://www.apple.com/uk/shop/buy-mac/macbook-pro/13-inch
+Yes.
 
 ### What browsers are supported?
 I genuinely have no idea.
